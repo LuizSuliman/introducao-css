@@ -1,0 +1,21 @@
+.card {
+    background-color: yellow;
+    width: 400px; 
+    padding: 20px; 
+    border: 2px solid red; 
+    border-radius: 4px; 
+    margin-top: 20px;
+    font-family: monospace; /* Herança */
+}
+
+/* Avatar, ou... */
+.spindash {
+    background-color: blue; 
+    height: 50px; 
+    width: 50px; 
+    border-radius: 50px;
+}
+
+.destaque {
+    color: blue;
+}

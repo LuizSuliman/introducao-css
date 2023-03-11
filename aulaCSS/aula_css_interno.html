@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Interno</title>
+    <style>
+        .card {
+            background-color: yellow;
+            width: 400px; 
+            padding: 20px; 
+            border: 2px solid red; 
+            border-radius: 4px; 
+            margin-top: 20px;
+            font-family: monospace; /* Herança */
+        }
+
+        /* Avatar, ou... */
+        .spindash {
+            background-color: blue; 
+            height: 50px; 
+            width: 50px; 
+            border-radius: 50px;
+        }
+
+        .destaque {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="spindash"></div>
+        <h1>Meu nome é: <span class="destaque">Sonic</span></h1>
+        <p><b>Mensagem: </b><span class="destaque">É agora ou nunca!</span></p>
+    </div>
+    <div class="card">
+        <div class="spindash"></div>
+        <h1>Meu nome é: <span class="destaque">Amy</span></h1>
+        <p><b>Mensagem: </b><span class="destaque">Compartilhe sua paixão!</span></p>
+    </div>
+</body>
+</html>
